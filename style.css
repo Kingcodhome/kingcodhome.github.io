@@ -121,6 +121,10 @@ body {
   font-weight: 300;
   max-width:100%;
 }
-@media only screen and (max-width : 480px)
+
+@media only screen and (max-width : 440px)
   and (orientation : portrait)
+  section{
+    padding: 20px;
+ }
   }
