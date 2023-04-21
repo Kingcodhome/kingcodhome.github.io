@@ -122,19 +122,19 @@ body {
   max-width:100%;
 }
 
-@media all(max-width: 480px) {
-    body {
+@media only screen and(max-width: 480px) {
+   .panel-group, body {
         background-image: url("https://img.marinas.com/v2/f88993f49edff2b535fdc2466b815018b92a2b186a37481eaaa481f062d254f2.jpg");
     }
   }
   
-  @media all(min-width: 481px) and (max-width: 1024px) {
-    body {
+  @media only screen and(min-width: 481px) and (max-width: 1024px) {
+    .panel-group,body {
         background-image: url("https://img.marinas.com/v2/f88993f49edff2b535fdc2466b815018b92a2b186a37481eaaa481f062d254f2.jpg");
     }
 }
-@media all(min-width: 1025px) {
-    body {
+@media only screen and(min-width: 1025px) {
+     .panel-group, body {
 	    background-image: url("https://img.marinas.com/v2/f88993f49edff2b535fdc2466b815018b92a2b186a37481eaaa481f062d254f2.jpg");
    }
 }
