@@ -122,19 +122,77 @@ body {
   max-width:100%;
 }
 
-@media only screen and(max-width: 480px) {
-   .panel-group, body {
-        background-image: url("https://img.marinas.com/v2/f88993f49edff2b535fdc2466b815018b92a2b186a37481eaaa481f062d254f2.jpg");
-    }
-  }
-  
-  @media only screen and(min-width: 481px) and (max-width: 1024px) {
-    .panel-group,body {
-        background-image: url("https://img.marinas.com/v2/f88993f49edff2b535fdc2466b815018b92a2b186a37481eaaa481f062d254f2.jpg");
-    }
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+   .button, .panel-body, .panel-group, . title, .panel panel-default, .panel-heading, .panel-title, . collapsed, .title, .btn btn-danger, .text {
+ background: url("https://img.marinas.com/v2/f88993f49edff2b535fdc2466b815018b92a2b186a37481eaaa481f062d254f2.jpg")
+     }
 }
-@media only screen and(min-width: 1025px) {
-     .panel-group, body {
-	    background-image: url("https://img.marinas.com/v2/f88993f49edff2b535fdc2466b815018b92a2b186a37481eaaa481f062d254f2.jpg");
-   }
+ 
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  .button, .panel-body, .panel-group, . title, .panel panel-default, .panel-heading, .panel-title, . collapsed, .title, .btn btn-danger, .text {
+    width: 400px;
+    height: 400px;
+    background: url("https://img.marinas.com/v2/f88993f49edff2b535fdc2466b815018b92a2b186a37481eaaa481f062d254f2.jpg")   
+  }
+}
+ 
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+  .button, .panel-body, .panel-group, . title, .panel panel-default, .panel-heading, .panel-title, . collapsed, .title, .btn btn-danger, .text{
+    width: 200px;
+    height: 200px;
+    background: url("https://img.marinas.com/v2/f88993f49edff2b535fdc2466b815018b92a2b186a37481eaaa481f062d254f2.jpg")
+  }
+}
+ 
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+  .button, .panel-body, .panel-group, . title, .panel panel-default, .panel-heading, .panel-title, . collapsed, .title, .btn btn-danger, .text {
+    width: 400px;
+    height: 200px;
+    background: url("https://img.marinas.com/v2/f88993f49edff2b535fdc2466b815018b92a2b186a37481eaaa481f062d254f2.jpg")
+  }
+}
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+    .button, .panel-body, .panel-group, . title, .panel panel-default, .panel-heading, .panel-title, . collapsed, .title, .btn btn-danger, .text {
+    width: 400px;
+    height: 200px;
+    background: url("https://img.marinas.com/v2/f88993f49edff2b535fdc2466b815018b92a2b186a37481eaaa481f062d254f2.jpg")
+  }
+}
+ 
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .button, .panel-body, .panel-group, . title, .panel panel-default, .panel-heading, .panel-title, . collapsed, .title, .btn btn-danger, .text{
+    width: 400px;
+    height: 400px;
+    background: url("https://img.marinas.com/v2/f88993f49edff2b535fdc2466b815018b92a2b186a37481eaaa481f062d254f2.jpg")  }
+}
+ 
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .button, .panel-body, .panel-group, . title, .panel panel-default, .panel-heading, .panel-title, . collapsed, .title, .btn btn-danger, .text {
+    width: 400px;
+    height: 400px;
+   background: url("https://img.marinas.com/v2/f88993f49edff2b535fdc2466b815018b92a2b186a37481eaaa481f062d254f2.jpg")
+  }
+}
+ 
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 3) {
+  .button, .panel-body, .panel-group, . title, .panel panel-default, .panel-heading, .panel-title, . collapsed, .title, .btn btn-danger, .text {
+    width: 400px;
+    height: 400px;
+    background: url("https://img.marinas.com/v2/f88993f49edff2b535fdc2466b815018b92a2b186a37481eaaa481f062d254f2.jpg")
+  }
 }
